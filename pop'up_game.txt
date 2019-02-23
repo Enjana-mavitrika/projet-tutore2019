@@ -1,0 +1,38 @@
+Projet Tutoré 
+
+Objectif :
+	* Jeu Simple fonctionnel en 2D 
+	* Conception :
+		*Architecture 
+			1 ordinateur : (rôle serveur" en localhost" et client )
+			1 ordianteur : (rôle client )
+
+Fonction Client Pop Corn et PopBox(Version 1.0.0.0 ) 
+	*Afficher direction (vue )
+	*Afficher countdown (le temps)
+	*Afficher rang % autres pop corn || PopBox capture du coup c'est le nombre de popbox capturé 
+	*detecter position(touchevent)
+	*se connecter au socket 
+	*Envoyer position touchdown en Serveur 
+	*les limites
+
+
+Ecran 
+	*Affichage( un plateau en fonction du nombre de joueurs )
+	*Affiche le pop_corn s'il est connecté et le pop_box si ce dernier aussi est connecté.
+	*Afficher Time
+	*Affichage et statut équipe( resumé de la partie en cour avec les joueurs éliminés )
+	*Gestion Colision ( entre pop'corn s'ils sont dans la même direction ils ne peuvent pas se manger. du coup
+			    ya collision on les fait réculé ou deviés . et c'est pareil pour les pop'box)
+	*Mise à jour du statut (qui supprime les joueurs eliminés dans le plateau)
+
+Gestionnaire fin de jeu || ou déroulement du jeu
+	*Detecte la fin du partie( c'est à dire le timer a écoulé)
+	*Detecte aussi tous les pop'corns arrivent à la ligne finale ou encore tous les pop'corns se font capturés 
+	*Calcule le nombre de pop'corns capturés et le nbre de pop'corns qui n'ont pas pu atteindre la ligne finale 
+	à la fin du timer.
+
+
+	
+
+	

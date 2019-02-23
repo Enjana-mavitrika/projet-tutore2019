@@ -1,16 +1,16 @@
-Projet Tutoré 
+Projet TutorÃ© 
 
 Objectif :
 	* Jeu Simple fonctionnel en 2D 
 	* Conception :
 		*Architecture 
-			1 ordinateur : (rôle serveur" en localhost" et client )
-			1 ordianteur : (rôle client )
+			1 ordinateur : (rÃ´le serveur" en localhost" et client )
+			1 ordinateur : (rÃ´le client)
 
-Fonction Client Pop Corn et PopBox(Version 1.0.0.0 ) 
+Fonction Client Pop Corn et PopBox(Version 1.0.0 ) 
 	*Afficher direction (vue )
 	*Afficher countdown (le temps)
-	*Afficher rang % autres pop corn || PopBox capture du coup c'est le nombre de popbox capturé 
+	*Afficher rang % autres pop corn || PopBox capture du coup c'est le nombre de popbox capturÃ© 
 	*detecter position(touchevent)
 	*se connecter au socket 
 	*Envoyer position touchdown en Serveur 
@@ -19,18 +19,18 @@ Fonction Client Pop Corn et PopBox(Version 1.0.0.0 )
 
 Ecran 
 	*Affichage( un plateau en fonction du nombre de joueurs )
-	*Affiche le pop_corn s'il est connecté et le pop_box si ce dernier aussi est connecté.
+	*Affiche le pop_corn s'il est connectÃ© et le pop_box si ce dernier aussi est connectÃ©.
 	*Afficher Time
-	*Affichage et statut équipe( resumé de la partie en cour avec les joueurs éliminés )
-	*Gestion Colision ( entre pop'corn s'ils sont dans la même direction ils ne peuvent pas se manger. du coup
-			    ya collision on les fait réculé ou deviés . et c'est pareil pour les pop'box)
-	*Mise à jour du statut (qui supprime les joueurs eliminés dans le plateau)
+	*Affichage et statut Ã©quipe( resumÃ© de la partie en cour avec les joueurs Ã©liminÃ©s )
+	*Gestion Colision ( entre pop'corn s'ils sont dans la mÃªme direction ils ne peuvent pas se manger. du coup
+			    ya collision on les fait rÃ©culÃ© ou deviÃ©s . et c'est pareil pour les pop'box)
+	*Mise Ã  jour du statut (qui supprime les joueurs eliminÃ©s dans le plateau)
 
-Gestionnaire fin de jeu || ou déroulement du jeu
-	*Detecte la fin du partie( c'est à dire le timer a écoulé)
-	*Detecte aussi tous les pop'corns arrivent à la ligne finale ou encore tous les pop'corns se font capturés 
-	*Calcule le nombre de pop'corns capturés et le nbre de pop'corns qui n'ont pas pu atteindre la ligne finale 
-	à la fin du timer.
+Gestionnaire fin de jeu || ou dÃ©roulement du jeu
+	*Detecte la fin du partie( c'est Ã  dire le timer a Ã©coulÃ©)
+	*Detecte aussi tous les pop'corns arrivent Ã  la ligne finale ou encore tous les pop'corns se font capturÃ©s 
+	*Calcule le nombre de pop'corns capturÃ©s et le nbre de pop'corns qui n'ont pas pu atteindre la ligne finale 
+	Ã  la fin du timer.
 
 
 	
